@@ -1,0 +1,13 @@
+/* Dash loads stylesheets in alphabetical order by file names */
+/* So, this file is loaded last */
+body {
+  background: #f9fbfd; }
+
+.modal-body {
+  background-color: #f9fbfd; }
+
+.modal-header {
+  background-color: #f9fbfd; }
+
+.modal-footer {
+  background-color: #f9fbfd; }
