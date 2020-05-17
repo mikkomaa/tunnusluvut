@@ -329,9 +329,9 @@ def get_figure_title(tunnusluku):
 def get_figure_width(yhtiot, kaavio, df):
     years = len(df['Vuosi'].unique())
     if kaavio == 'bar':
-        width = max(450, 37 * years * len(yhtiot))
+        width = max(500, 37 * years * len(yhtiot))
         return min(1200, width)
-    return max(450, 75 * years)
+    return max(500, 75 * years)
 
 
 # Modal callbacks
